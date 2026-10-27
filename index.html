@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#120d09">
+  <meta name="description" content="Heavenly Strider. Авторский контент, Project Seven Sins, Mefolt: Distant Station и атмосферная музыка.">
+  <title>Heavenly Strider | Creator Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="Heavenly Strider">
+      <span class="brand-mark">HS</span>
+      <span class="brand-text">
+        <strong>HEAVENLY STRIDER</strong>
+        <small data-i18n="brandSubtitle">Авторское пространство</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle" type="button"
+      aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#about" data-i18n="navAbout">Обо мне</a>
+      <a href="#projects" data-i18n="navProjects">Проекты</a>
+      <a href="#creative" data-i18n="navCreative">Творчество</a>
+      <a href="#contact" data-i18n="navContact">Контакты</a>
+    </nav>
+
+    <div class="language-switch" aria-label="Language">
+      <button class="lang-button active" type="button" data-lang="ru" aria-pressed="true">RU</button>
+      <button class="lang-button" type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span><span data-i18n="heroEyebrow">АВТОРСКИЙ КОНТЕНТ · СОБСТВЕННЫЕ ПРОЕКТЫ</span></p>
+        <h1>Heavenly<br><span>Strider.</span></h1>
+        <p class="hero-lead" data-i18n="heroLead">Создаю контент, истории и миры со своей атмосферой.</p>
+        <p class="hero-description" data-i18n="heroDescription">
+          Пространство моих проектов: Project Seven Sins, Mefolt: Distant Station,
+          атмосферная музыка и другие творческие работы.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button primary-button" href="#projects" data-i18n="heroButton">Исследовать проекты ↗</a>
+          <a class="button secondary-button" href="#about" data-i18n="heroSecondary">О создателе</a>
+        </div>
+
+        <div class="hero-meta">
+          <span data-i18n="heroMetaOne">Авторские миры и идеи</span>
+          <span class="meta-dot"></span>
+          <span data-i18n="heroMetaTwo">Истории · Игры · Звук</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-glow"></div>
+        <div class="avatar-frame">
+          <div class="avatar-placeholder" aria-hidden="true">HS</div>
+          <img class="avatar-image" src="avatar.png" alt="Heavenly Strider">
+          <div class="avatar-caption">
+            <span>HEAVENLY STRIDER</span>
+            <strong>CREATOR</strong>
+          </div>
+        </div>
+        <div class="floating-label label-top" data-i18n="heroBadgeOne">Творческое пространство</div>
+        <div class="floating-label label-bottom">
+          <span>✳</span><span data-i18n="heroBadgeTwo">Оригинальные проекты</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>PROJECT SEVEN SINS</span><i>✳</i>
+        <span>MEFOLT: DISTANT STATION</span><i>✳</i>
+        <span>ATMOSPHERIC MUSIC</span><i>✳</i>
+        <span>ORIGINAL WORLDS</span><i>✳</i>
+        <span>PROJECT SEVEN SINS</span><i>✳</i>
+        <span>MEFOLT: DISTANT STATION</span><i>✳</i>
+        <span>ATMOSPHERIC MUSIC</span><i>✳</i>
+        <span>ORIGINAL WORLDS</span><i>✳</i>
+      </div>
+    </div>
+
+    <section class="section section-wrap" id="about">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" data-i18n="aboutEyebrow">01 / ОБО МНЕ</p>
+          <h2 data-i18n="aboutTitle">Автор за<br><span>своими проектами.</span></h2>
+        </div>
+        <p class="section-aside" data-i18n="aboutAside">
+          Идеи, которым я даю собственный визуальный и эмоциональный облик.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="lead" data-i18n="aboutLead">
+            Heavenly Strider — имя, под которым я представляю свои творческие проекты.
+          </p>
+          <p data-i18n="aboutTextOne">
+            Мне интересно создавать контент, который не просто сообщает что-то зрителю,
+            а передаёт настроение, оставляет пространство для интерпретации и запоминается
+            собственным характером.
+          </p>
+          <p data-i18n="aboutTextTwo">
+            Здесь собраны разные стороны моего творчества: авторская вселенная,
+            игровые проекты, атмосферный звук и другие работы. Каждый проект развивается
+            по-своему, но все они отражают мой интерес к историям и созданию миров.
+          </p>
+          <p data-i18n="aboutTextThree">
+            Это не законченный каталог. Пространство будет пополняться новыми работами,
+            идеями и материалами по мере их появления.
+          </p>
+        </div>
+
+        <aside class="profile-card">
+          <div class="profile-top">
+            <span>CREATOR PROFILE</span>
+            <span class="profile-status"><i></i><span data-i18n="profileStatus">Онлайн-пространство</span></span>
+          </div>
+          <div class="profile-monogram">HS</div>
+          <h3>Heavenly Strider</h3>
+          <p class="muted" data-i18n="profileDescription">Автор контента и создатель собственных проектов.</p>
+          <div class="rule"></div>
+          <div class="profile-row">
+            <span data-i18n="profileFocusLabel">Направление</span>
+            <strong data-i18n="profileFocus">Авторский контент</strong>
+          </div>
+          <div class="profile-row">
+            <span data-i18n="profileInterestsLabel">Проекты</span>
+            <strong data-i18n="profileInterests">Истории, игры, музыка</strong>
+          </div>
+          <div class="profile-row">
+            <span data-i18n="profileApproachLabel">Подход</span>
+            <strong data-i18n="profileApproach">Атмосфера и детали</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="banner-section section-wrap">
+      <div class="banner-frame">
+        <img class="banner-image" src="banner.png" alt="Баннер авторского пространства">
+        <div class="banner-shade"></div>
+        <div class="banner-caption">
+          <span data-i18n="bannerLabel">АВТОРСКОЕ ПРОСТРАНСТВО</span>
+          <p data-i18n="bannerCaption">У каждой истории есть своя атмосфера.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" data-i18n="projectsEyebrow">02 / ПРОЕКТЫ</p>
+          <h2 data-i18n="projectsTitle">Миры, которые<br><span>стоит исследовать.</span></h2>
+        </div>
+        <p class="section-aside" data-i18n="projectsAside">
+          Несколько направлений, объединённых личным творческим взглядом.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art pss-art">
+            <div class="art-symbol">VII</div>
+            <span class="art-index">PROJECT / 01</span>
+          </div>
+          <div class="project-body">
+            <div class="project-kicker">
+              <span data-i18n="pssCategory">Авторская вселенная</span>
+              <span class="project-state" data-i18n="pssStatus">В разработке</span>
+            </div>
+            <h3>Project Seven Sins</h3>
+            <p data-i18n="pssDescription">
+              Авторская вселенная с персонажами, историями и собственным внутренним миром.
+              Проект постепенно раскрывается через материалы и отдельные элементы повествования.
+            </p>
+            <div class="tags">
+              <span data-i18n="tagCharacters">Персонажи</span>
+              <span data-i18n="tagWorldbuilding">Мир</span>
+              <span data-i18n="tagStories">Истории</span>
+            </div>
+            <a class="project-link" href="https://www.projectsevensins.space/" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="pssLink">Посетить сайт проекта</span><b>↗</b>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art mefolt-art">
+            <img
+              class="mefolt-logo"
+              src="mefolt-logo.png"
+              alt="Логотип Mefolt: Distant Station"
+              loading="lazy">
+            <div class="mefolt-logo-fallback" aria-hidden="true">
+              MEFOLT
+              <small>DISTANT STATION</small>
+            </div>
+            <span class="art-index">PROJECT / 02</span>
+          </div>
+          <div class="project-body">
+            <div class="project-kicker">
+              <span data-i18n="mefoltCategory">Игровой проект</span>
+              <span class="project-state">ROBLOX</span>
+            </div>
+            <h3>Mefolt: Distant Station</h3>
+            <p data-i18n="mefoltDescription">
+              Кооперативная PvE-игра, в которой исследование окружения и атмосфера
+              составляют важную часть игрового опыта.
+            </p>
+            <div class="tags">
+              <span data-i18n="tagGaming">Игры</span>
+              <span data-i18n="tagExploration">Исследование</span>
+              <span data-i18n="tagAtmosphere">Атмосфера</span>
+            </div>
+            <a class="project-link" href="https://www.roblox.com/games/98201221199093/Mefolt-Distant-Station" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="mefoltLink">Открыть игру</span><b>↗</b>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art music-art">
+            <div class="sound-orbit orbit-a"></div>
+            <div class="sound-orbit orbit-b"></div>
+            <div class="sound-core">♫</div>
+            <span class="art-index">PROJECT / 03</span>
+          </div>
+          <div class="project-body">
+            <div class="project-kicker">
+              <span data-i18n="musicCategory">Музыка и звук</span>
+              <span class="project-state" data-i18n="musicStatus">YouTube</span>
+            </div>
+            <h3 data-i18n="musicTitle">Атмосферная музыка</h3>
+            <p data-i18n="musicDescription">
+              Тёмные звуковые пейзажи и атмосферные композиции, в том числе музыка,
+              созданная для Mefolt: Distant Station.
+            </p>
+            <div class="tags">
+              <span data-i18n="tagAmbient">Ambient</span>
+              <span data-i18n="tagSound">Звук</span>
+              <span data-i18n="tagMood">Настроение</span>
+            </div>
+            <a class="project-link" href="https://www.youtube.com/@Heavenly_Strider" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="musicLink">Слушать на YouTube</span><b>↗</b>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art voice-art">
+            <div class="voice-symbol">THE REAL<span>BACKROOMS</span></div>
+            <span class="art-index">PROJECT / 04</span>
+          </div>
+          <div class="project-body">
+            <div class="project-kicker">
+              <span data-i18n="voiceCategory">Озвучка</span>
+              <span class="project-state" data-i18n="voiceStatus">Участие</span>
+            </div>
+            <h3>The Real Backrooms</h3>
+            <p data-i18n="voiceDescription">
+              Я принимал участие в озвучке независимого сериального проекта,
+              связанного с YouTube-автором Logzian.
+            </p>
+            <div class="tags">
+              <span data-i18n="tagVoice">Голос</span>
+              <span data-i18n="tagSeries">Сериал</span>
+              <span data-i18n="tagStorytelling">Повествование</span>
+            </div>
+            <a class="project-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="voiceLink">Смотреть на YouTube</span><b>↗</b>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="creative">
+      <div class="quote-panel">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <p class="eyebrow" data-i18n="creativeEyebrow">03 / ТВОРЧЕСКИЙ ПОДХОД</p>
+        <h2 data-i18n="creativeTitle">Не просто контент.<br><span>Целое настроение.</span></h2>
+        <p class="muted" data-i18n="creativeText">
+          Мне интересны проекты, которые формируют собственное ощущение мира:
+          через образы, звук, историю и детали. Здесь важен не только результат,
+          но и то, какие эмоции он оставляет после знакомства.
+        </p>
+        <span class="signature">— Heavenly Strider</span>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="contact">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" data-i18n="contactEyebrow">04 / ССЫЛКИ</p>
+          <h2 data-i18n="contactTitle">Продолжим<br><span>знакомство?</span></h2>
+        </div>
+        <p class="section-aside" data-i18n="contactAside">
+          Мои проекты и публичные страницы в сети.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="https://www.projectsevensins.space/" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon">VII</span>
+          <span><strong>Project Seven Sins</strong><small data-i18n="contactPss">Авторский сайт</small></span>
+          <b>↗</b>
+        </a>
+        <a class="contact-card" href="https://github.com/Heavenly-Strider/" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon">GH</span>
+          <span><strong>GitHub</strong><small data-i18n="contactGithub">Проекты и код</small></span>
+          <b>↗</b>
+        </a>
+        <a class="contact-card" href="https://www.youtube.com/@Heavenly_Strider" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon">YT</span>
+          <span><strong>YouTube</strong><small data-i18n="contactYoutube">Музыка и видео</small></span>
+          <b>↗</b>
+        </a>
+        <a class="contact-card" href="https://t.me/HeavenlyStrider" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon">TG</span>
+          <span><strong>Telegram</strong><small data-i18n="contactTelegram">Связаться</small></span>
+          <b>↗</b>
+        </a>
+        <a class="contact-card" href="https://discord.com/users/1141390972656308294" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon">DC</span>
+          <span><strong>Discord</strong><small data-i18n="contactDiscord">Публичный профиль</small></span>
+          <b>↗</b>
+        </a>
+        <a class="contact-card" href="https://www.roblox.com/users/5013643135/profile" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon">RB</span>
+          <span><strong>Roblox</strong><small data-i18n="contactRoblox">Игровой профиль</small></span>
+          <b>↗</b>
+        </a>
+      </div>
+    </section>
+
+    <section class="section section-wrap game-section" id="game">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" data-i18n="gameEyebrow">05 / МИНИ-ИГРА</p>
+          <h2>Crimson <span>Drift.</span></h2>
+        </div>
+        <p class="section-aside" data-i18n="gameIntro">
+          Уклоняйся от осколков, набирай очки и продержись как можно дольше.
+        </p>
+      </div>
+
+      <div class="game-layout">
+        <div class="game-screen" id="game-stage">
+          <canvas id="game-canvas" aria-label="Crimson Drift game"></canvas>
+          <div class="game-hud">
+            <span>CRIMSON DRIFT</span>
+            <span id="game-status" data-i18n="gameStatusReady">ГОТОВО</span>
+          </div>
+          <div class="game-overlay" id="game-overlay">
+            <div class="game-overlay-content">
+              <span class="game-label">CRIMSON DRIFT</span>
+              <h3 id="game-message-title" data-i18n="gameReadyTitle">Готов начать?</h3>
+              <p id="game-message" data-i18n="gameReadyText">Двигайся и избегай красных осколков.</p>
+              <button class="button primary-button" id="start-game" type="button" data-i18n="gameStart">Начать игру</button>
+            </div>
+          </div>
+        </div>
+
+        <aside class="game-sidebar">
+          <div class="score-card">
+            <span data-i18n="scoreLabel">Текущий счёт</span>
+            <strong id="score">0000</strong>
+          </div>
+          <div class="score-card">
+            <span data-i18n="bestScoreLabel">Лучший результат</span>
+            <strong id="best-score">0000</strong>
+          </div>
+          <div class="controls-card">
+            <h3 data-i18n="controlsTitle">Управление</h3>
+            <div class="key-row"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div>
+            <p data-i18n="controlsText">Используй WASD или стрелки. На телефоне веди пальцем по игровому полю.</p>
+          </div>
+          <p class="game-footnote" data-i18n="gameFootnote">Лучший результат сохраняется в этом браузере.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="#home">
+      HEAVENLY STRIDER
+      <span data-i18n="footerBrand">Авторское пространство</span>
+    </a>
+    <p>© <span id="current-year"></span> Heavenly Strider</p>
+    <a href="#home" data-i18n="backToTop">Наверх ↑</a>
+  </footer>
+</body>
+</html>
